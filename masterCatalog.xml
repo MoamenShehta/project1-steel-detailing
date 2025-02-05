@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatalogSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DrawingView>Thumbnails</DrawingView>
+  <Folders>
+    <Folder Name="Assembly DWGs + Single part DWGs">
+      <Files>
+        <File>Style 1 excluding parts.xdproc</File>
+        <File>Style 1 including parts.xdproc</File>
+        <File>Create Bar Code Labels.xdproc</File>
+        <File>Style 1 Single parts only.xdproc</File>
+        <File>Assembly Drawings.xdproc</File>
+        <File>Assembly Barcode.xdproc</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Assembly DWGs with single parts">
+      <Files>
+        <File>Assembly DWGs with single parts.xdproc</File>
+        <File>Assembly Barcode.xdproc</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Precast GA">
+      <Files>
+        <File>PC-A1-3D.gd</File>
+        <File>PC-A1-FloorPlan.gd</File>
+        <File>PC-A1-FoundPlan.gd</File>
+        <File>PC-A1-PlanElevs.gd</File>
+        <File>standard.gd</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Precast Formwork">
+      <Files>
+        <File>PC-beam-FW.cud</File>
+        <File>PC-column-FW.cud</File>
+        <File>PC-hollowcore-FW.cud</File>
+        <File>PC-slab-FW.cud</File>
+        <File>standard.cud</File>
+        <File>PC FormWork drawings.xdproc</File>
+        <File>PC-column.cud</File>
+        <File>PC-beam.cud</File>
+        <File>PC-hollowcore.cud</File>
+        <File>PC-panel.cud</File>
+        <File>PC-insulated_panel.cud</File>
+        <File>PC-stair.cud</File>
+        <File>PC-landing.cud</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Precast Reinforcement">
+      <Files>
+        <File>PC-beam-RC.cud</File>
+        <File>PC-column-RC.cud</File>
+        <File>PC-panel-RC.cud</File>
+        <File>PC-slab-RC.cud</File>
+        <File>standard.cud</File>
+        <File>PC Reinforcement drawing.xdproc</File>
+        <File>PC-stair-RC.cud</File>
+        <File>PC-landing-RC.cud</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Precast Miscelaneous">
+      <Files>
+        <File>PC-barcode.cud</File>
+        <File>PC-Hardware.cud</File>
+        <File>standard.cud</File>
+        <File>standard.gd</File>
+      </Files>
+      <Folders />
+    </Folder>
+    <Folder Name="Precast Wizards">
+      <Files>
+        <File>PC All Precast Drawings.xdproc</File>
+        <File>PC FormWork drawings.xdproc</File>
+        <File>PC Rebar Schedule drawings.xdproc</File>
+        <File>PC Reinforcement drawing.xdproc</File>
+      </Files>
+      <Folders />
+    </Folder>
+  </Folders>
+  <ForeignModels />
+  <IncludeRulesets>true</IncludeRulesets>
+  <IncludeStandards>true</IncludeStandards>
+  <IncludeTemplates>true</IncludeTemplates>
+  <LastSearchStrings>
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+    <string xsi:nil="true" />
+  </LastSearchStrings>
+  <SearchString />
+  <SelectedCategory>Saved settings</SelectedCategory>
+  <SelectedFolder>Precast Wizards</SelectedFolder>
+  <ShowDescription>true</ShowDescription>
+  <StoredSearches>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>All</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Basic</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder>Basic</TargetFolder>
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Deleted</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Deleted</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>true</Hidden>
+      <Name>==========</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>General arrangement drawings</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>GeneralArrangement</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Assembly drawings</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>Assembly</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Single-part drawings</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>SinglePart</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Cast-unit drawings</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>CastUnit</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>true</Hidden>
+      <Name>==========</Name>
+      <Search />
+      <SourceType>None</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Cloning templates</Name>
+      <Search />
+      <SourceType>TemplateDrawing</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Saved settings</Name>
+      <Search />
+      <SourceType>StandardFile</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+    <StoredSearch>
+      <Hidden>false</Hidden>
+      <Name>Rule sets (wizards)</Name>
+      <Search />
+      <SourceType>RuleSet</SourceType>
+      <Target>Catalog</Target>
+      <TargetFolder />
+      <TargetType>None</TargetType>
+    </StoredSearch>
+  </StoredSearches>
+  <WorkingMode>Browse</WorkingMode>
+</CatalogSettings>

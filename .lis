@@ -1,0 +1,481 @@
+PROFILE DATABASE EXPORT VERSION = 3
+
+PROFILE_NAME = "CRANE RAIL";
+{
+    TYPE = 10; SUB_TYPE = 10001; COORDINATE = 0.000;
+    {
+        "HEIGHT"                            2.000000000E+02
+        "WIDTH"                             1.000000000E+02
+        "WEB_THICKNESS"                     1.000000000E+01
+        "FLANGE_THICKNESS"                  1.500000000E+01
+        "ROUNDING_RADIUS_1"                 2.000000000E+01
+        "ROUNDING_RADIUS_2"                 5.000000000E+00
+        "FLANGE_SLOPE_RATIO"                0.000000000E+00
+        "COVER_AREA"                        0.000000000E+00
+        "CROSS_SECTION_AREA"                0.000000000E+00
+        "MOMENT_OF_INERTIA_X"               0.000000000E+00
+        "MOMENT_OF_INERTIA_Y"               0.000000000E+00
+        "NEUTRAL_AXIS_LOCATION_ELASTIC_X"   0.000000000E+00
+        "NEUTRAL_AXIS_LOCATION_ELASTIC_Y"   0.000000000E+00
+        "NEUTRAL_AXIS_LOCATION_PLASTIC_X"   0.000000000E+00
+        "NEUTRAL_AXIS_LOCATION_PLASTIC_Y"   0.000000000E+00
+        "NORMALIZED_WARPING_CONSTANT"       0.000000000E+00
+        "PLASTIC_MODULUS_X"                 0.000000000E+00
+        "PLASTIC_MODULUS_Y"                 0.000000000E+00
+        "POLAR_RADIUS_OF_GYRATION"          0.000000000E+00
+        "RADIUS_OF_GYRATION_X"              0.000000000E+00
+        "RADIUS_OF_GYRATION_Y"              0.000000000E+00
+        "SECTION_MODULUS_X"                 0.000000000E+00
+        "SECTION_MODULUS_Y"                 0.000000000E+00
+        "SHEAR_CENTER_LOCATION"             0.000000000E+00
+        "SQRT_OF_E_x_Cw_PER_G_x_J"          0.000000000E+00
+        "STATICAL_MOMENT_Qf"                0.000000000E+00
+        "STATICAL_MOMENT_Qw"                0.000000000E+00
+        "TANGENT_OF_PRINCIPAL_AXIS_ANGLE"   0.000000000E+00
+        "TORSIONAL_CONSTANT"                0.000000000E+00
+        "WARPING_CONSTANT"                  0.000000000E+00
+        "WARPING_STATICAL_MOMENT"           0.000000000E+00
+        "WEIGHT_PER_UNIT_LENGTH"            0.000000000E+00
+        "SUBCATEGORY"                       ""
+        "GAGE_DISTANCE_T"                   0.000000000E+00
+        "K_DISTANCE_T"                      0.000000000E+00
+        "ACTUAL_WEB_THICKNESS_D_T"          0.000000000E+00
+        "HALF_WEB_THICKNESS_T"              0.000000000E+00
+        "PROFILE_SUBGROUP"                  ""
+        "CISC_PROFILE"                      ""
+        "HISTORICAL_PROFILE"                ""
+        "COST_TON"                          ""
+        "DESIGN_GROUP"                      ""
+        "DESIGN_ORDER"                      0
+        "EDITION"                           ""
+        "ERP_DESCRIPTION"                   ""
+        "FABRICATOR"                        ""
+        "FABRICATOR_CODE"                   ""
+        "FACTORY_LIST"                      ""
+        "IMPERIAL_EQ_NAME"                  ""
+        "IS_RECOMMENDED_SIZE"               ""
+        "IS_STOCK_SIZE"                     ""
+        "MAX_TWIN_SEARCH_DIST"              0.000000000E+00
+        "METRIC_EQ_NAME"                    ""
+        "PROFILE_CUT_FROM"                  ""
+        "PR_WEB_THICKNESS"                  0.000000000E+00
+        "PR_WEB_WIDTH"                      0.000000000E+00
+        "RAINA_T"                           0.000000000E+00
+        "RLSD_C_I_C"                        ""
+        "RLSD_C_W"                          ""
+        "RLSD_DENS"                         ""
+        "RLSD_GAUGE"                        ""
+        "RLSD_MAX_SHTS"                     ""
+        "RLSD_M_SPEC"                       ""
+        "RLSD_PAINT"                        ""
+        "SAP_DESCRIPTION"                   ""
+        "RLSD_YIELD"                        ""
+        "STANDARD"                          ""
+        "TIPLOGIA_OGGETTO"                  ""
+        "D2"                                0.000000000E+00
+        "RAINA"                             0.000000000E+00
+        "D1"                                0.000000000E+00
+        "W3"                                0.000000000E+00
+        "W2"                                0.000000000E+00
+        "W1"                                0.000000000E+00
+        "HANDELSGEWICHT"                    0.000000000E+00
+        "PREIS"                             0
+    }
+}
+
+PROPERTY_NAME = "PROFILE_CUT_FROM";
+{
+    PROFILE_TYPE  = 10;
+    SYMBOL        = "1/2T";
+    LABEL_STRING  = "Profile Cut From";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "HALF_WEB_THICKNESS_T";
+{
+    PROFILE_TYPE  = 10;
+    SYMBOL        = "tw/2";
+    LABEL_STRING  = "Half stem thickness";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = -2;
+};
+
+PROPERTY_NAME = "ACTUAL_WEB_THICKNESS_D_T";
+{
+    PROFILE_TYPE  = 10;
+    SYMBOL        = "tw";
+    LABEL_STRING  = "Actual web thickness (decimal)";
+    QUANTITY_TYPE = 1;
+    ORDER_NUMBER  = -3;
+};
+
+PROPERTY_NAME = "K_DISTANCE_T";
+{
+    PROFILE_TYPE  = 10;
+    SYMBOL        = "k";
+    LABEL_STRING  = "k distance";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = -4;
+};
+
+PROPERTY_NAME = "GAGE_DISTANCE_T";
+{
+    PROFILE_TYPE  = 10;
+    SYMBOL        = "";
+    LABEL_STRING  = "Workable Gage";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = -5;
+};
+
+PROPERTY_NAME = "PREIS";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "Ä/100KG";
+    LABEL_STRING  = "Euro";
+    QUANTITY_TYPE = -2;
+    ORDER_NUMBER  = 11;
+};
+
+PROPERTY_NAME = "HANDELSGEWICHT";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Handelsgewicht";
+    QUANTITY_TYPE = 102;
+    ORDER_NUMBER  = 10;
+};
+
+PROPERTY_NAME = "W1";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "w1";
+    LABEL_STRING  = "w1";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 9;
+};
+
+PROPERTY_NAME = "W2";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "w2";
+    LABEL_STRING  = "w2";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 8;
+};
+
+PROPERTY_NAME = "W3";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "w3";
+    LABEL_STRING  = "w3";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 7;
+};
+
+PROPERTY_NAME = "D1";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "d1";
+    LABEL_STRING  = "d1";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 6;
+};
+
+PROPERTY_NAME = "RAINA";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "Rainaleveys";
+    LABEL_STRING  = "Rainaleveys";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 5;
+};
+
+PROPERTY_NAME = "D2";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "d2";
+    LABEL_STRING  = "d2";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 2;
+};
+
+PROPERTY_NAME = "RLSD_YIELD";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Yield";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 1;
+};
+
+PROPERTY_NAME = "STANDARD";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "ãKäi";
+    LABEL_STRING  = "ãKäi";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 1;
+};
+
+PROPERTY_NAME = "TIPLOGIA_OGGETTO";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Tipologia";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 1;
+};
+
+PROPERTY_NAME = "COST_TON";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "AED/Ton";
+    LABEL_STRING  = "Cost Per Ton";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "DESIGN_GROUP";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Design group ";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "DESIGN_ORDER";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Design order";
+    QUANTITY_TYPE = -2;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "EDITION";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "î≈êî";
+    LABEL_STRING  = "î≈êî";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "ERP_DESCRIPTION";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "ERP";
+    LABEL_STRING  = "ERP Description";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "FABRICATOR";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Fabricator";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "FABRICATOR_CODE";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Fabricator code";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "FACTORY_LIST";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "FactoryList";
+    LABEL_STRING  = "List of factories";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "IMPERIAL_EQ_NAME";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Imperial Equivalent Name";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "IS_RECOMMENDED_SIZE";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "IsRecommended";
+    LABEL_STRING  = "Is recommended size";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "IS_STOCK_SIZE";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "IsStockSize";
+    LABEL_STRING  = "Is stock size";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "MAX_TWIN_SEARCH_DIST";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Twin Profile Effect Distance";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "METRIC_EQ_NAME";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Metric Equivalent Name";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "PR_WEB_THICKNESS";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Web thickness";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "PR_WEB_WIDTH";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Web width";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RAINA_T";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "Rainapaksuus";
+    LABEL_STRING  = "Web thickness";
+    QUANTITY_TYPE = 10;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RLSD_C_I_C";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Corus item code";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RLSD_C_W";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Cover width";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RLSD_DENS";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Density";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RLSD_GAUGE";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Gauge";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RLSD_MAX_SHTS";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Max. No. sheets in bundle";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RLSD_M_SPEC";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Material specification";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "RLSD_PAINT";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Paint splash code";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "SAP_DESCRIPTION";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "SAP";
+    LABEL_STRING  = "SAP Description";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = 0;
+};
+
+PROPERTY_NAME = "CISC_PROFILE";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Canadian Profile";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = -1;
+};
+
+PROPERTY_NAME = "HISTORICAL_PROFILE";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Historical Profile";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = -1;
+};
+
+PROPERTY_NAME = "PROFILE_SUBGROUP";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Profile Subgroup";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = -2;
+};
+
+PROPERTY_NAME = "SUBCATEGORY";
+{
+    PROFILE_TYPE  = -1;
+    SYMBOL        = "";
+    LABEL_STRING  = "Sort Subcategory";
+    QUANTITY_TYPE = -1;
+    ORDER_NUMBER  = -7;
+};
+

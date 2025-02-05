@@ -1,0 +1,39 @@
+
+***NUMBERING_HISTORY Numbering (User): Wed Sep 11 03:16:04 2024
+NUMBERING_HISTORY Modified numbering for selected series
+NUMBERING_HISTORY Compare modified to old parts
+NUMBERING_HISTORY Compare new to old parts
+NUMBERING_HISTORY Holes considered
+NUMBERING_HISTORY Part names considered
+NUMBERING_HISTORY Beam orientation ignored
+NUMBERING_HISTORY Column orientation ignored
+NUMBERING_HISTORY Assembly Phase ignored
+NUMBERING_HISTORY Reinforcing bars considered
+NUMBERING_HISTORY Embeds considered
+NUMBERING_HISTORY Surface treatments considered
+NUMBERING_HISTORY Welds ignored
+NUMBERING_HISTORY Automatic cloning enabled
+NUMBERING_HISTORY Synchronize with master model disabled
+NUMBERING_HISTORY Tolerance: 1.000000
+NUMBERING_HISTORY SteelTolerance: 1.000000
+NUMBERING_HISTORY ConcreteTolerance: 1.000000
+NUMBERING_HISTORY RebarTolerance: 1.000000
+NUMBERING_HISTORY WeldSeamPropertyTolerance: 0.000000
+Duplicate groups clearing done in 0s
+Numbering 647 parts.
+Part    guid: 0edf5b09-4d46-42f6-bc0e-54bfab9b8ac2  series:Concrete_FP-1/1  Concrete_FP-1/0 -> Concrete_FP-1/1
+Part    guid: e2dd6fe0-ce97-4f97-ab0f-e02080e85f48  series:Concrete_FP-1/1  Concrete_FP-1/0 -> Concrete_FP-1/1
+Part    guid: 310e9c10-bf31-4a4f-9796-36fde3027d36  series:Concrete_FP-1/1  Concrete_FP-1/0 -> Concrete_FP-1/1
+Part    guid: 46fe84b7-efa7-4c66-a9e9-4d09efa22303  series:Concrete_FP-1/1  Concrete_FP-1/0 -> Concrete_FP-1/1
+Part numbering done in 0s
+Numbering 0 reinforcing bars
+Reinforcing bar numbering done in 0s
+Numbering 89 assemblies or assembly families
+Assembly guid: 5b852c3d-7086-4d90-9725-ff2ff961008f  series:FP/1  FP/0 -> FP/1
+Assembly guid: 471fa981-dc66-4d30-8ce5-879d20cb9293  series:FP/1  FP/0 -> FP/1
+Assembly guid: 014c9bbe-7842-4c06-990d-9b4ae22ca9b6  series:FP/1  FP/0 -> FP/1
+Assembly guid: 29776e2a-c709-4ff8-ad37-408d2d588535  series:FP/1  FP/0 -> FP/1
+Assembly guid: b0d03ee6-21d6-4b61-bb01-b0c718bee155  series:S/1  S/8 -> S/9
+Assembly numbering done in 0s
+Numbering 89 assemblies or assembly families
+Family numbering done in 0s
